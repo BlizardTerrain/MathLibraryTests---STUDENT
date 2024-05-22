@@ -35,12 +35,9 @@ namespace MathClasses
         // cast to float array - const-qualified
         operator const float* () const { return data; }
 
-        Vector3 operator +(const Vector3& rhs) const
-        {
+        Vector3 operator +(const Vector3& rhs) const {
             Vector3 sum;
 
-            // x is the LEFT vector's x-component
-            // rhs.x is the RIGHT vector's x-component
             sum.x = x + rhs.x;
             sum.y = y + rhs.y;
             sum.z = z + rhs.z;
@@ -129,7 +126,9 @@ namespace MathClasses
         }
 
         Vector3 Vector3::Cross(const Vector3& other) {
-            return Vector3(y * other.z - z * other.y, z * other.x - x * other.z, x * other.y - y * other.x);
+            return Vector3(y * other.z - z * other.y,
+                z * other.x - x * other.z,
+                x * other.y - y * other.x);
         }
 
         float AngleBetween(const Vector3& other) const {
