@@ -1,135 +1,4 @@
 ﻿  ColourTests.cpp
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(9,5): error C2011: 'MathClasses::Vector3': 'struct' type redefinition
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(22,21): error C2079: 'MathClasses::Matrix3::axis' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(79,17): error C2535: 'MathClasses::Matrix3 MathClasses::Matrix3::operator *(MathClasses::Matrix3) const': member function already defined or declared
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(60,17): message : see declaration of 'MathClasses::Matrix3::operator *'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,25): error C2079: 'row' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(73,1): error C2109: subscript requires array or pointer type
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(94,17): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(96,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(97,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(98,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(95,27): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(26,1): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): error C3536: 'str': cannot be used before it is initialized
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): error C2665: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2674,5): message : could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'wchar_t' to 'const _Elem *const '
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3224,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'wchar_t' to 'std::initializer_list<_Elem>'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-          and
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2620,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept': cannot convert argument 1 from 'wchar_t' to 'const _Alloc &'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Reason: cannot convert from 'wchar_t' to 'const _Alloc'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3031,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)': expects 4 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3024,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)': could not deduce template argument for '__formal'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2704,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2698,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2685,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)': expects 2 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : while trying to match the argument list '(wchar_t)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): error C2660: 'mbstowcs_s': function does not take 3 arguments
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(908,26): message : see declaration of 'mbstowcs_s'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(916,1): message : could be 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept': expects 4 arguments - 3 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : while trying to match the argument list '(size_t *, wchar_t *, unsigned __int64)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(48,18): error C2039: 'ToString': is not a member of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector4.h(5,12): message : see declaration of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(59,1): error C3536: 'str': cannot be used before it is initialized
@@ -348,137 +217,6 @@ C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(106,5): message : while trying to match the argument list '(size_t *, wchar_t *, unsigned __int64)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\ColourTests.cpp(36,41): error C2676: binary '==': 'MathClasses::Colour' does not define this operator or a conversion to a type acceptable to the predefined operator
   Matrix3Tests.cpp
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(9,5): error C2011: 'MathClasses::Vector3': 'struct' type redefinition
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(22,21): error C2079: 'MathClasses::Matrix3::axis' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(79,17): error C2535: 'MathClasses::Matrix3 MathClasses::Matrix3::operator *(MathClasses::Matrix3) const': member function already defined or declared
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(60,17): message : see declaration of 'MathClasses::Matrix3::operator *'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,25): error C2079: 'row' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(73,1): error C2109: subscript requires array or pointer type
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(94,17): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(96,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(97,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(98,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(95,27): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(26,1): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): error C3536: 'str': cannot be used before it is initialized
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): error C2665: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2674,5): message : could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'wchar_t' to 'const _Elem *const '
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3224,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'wchar_t' to 'std::initializer_list<_Elem>'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-          and
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2620,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept': cannot convert argument 1 from 'wchar_t' to 'const _Alloc &'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Reason: cannot convert from 'wchar_t' to 'const _Alloc'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3031,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)': expects 4 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3024,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)': could not deduce template argument for '__formal'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2704,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2698,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2685,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)': expects 2 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : while trying to match the argument list '(wchar_t)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): error C2660: 'mbstowcs_s': function does not take 3 arguments
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(908,26): message : see declaration of 'mbstowcs_s'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(916,1): message : could be 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept': expects 4 arguments - 3 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : while trying to match the argument list '(size_t *, wchar_t *, unsigned __int64)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(48,18): error C2039: 'ToString': is not a member of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector4.h(5,12): message : see declaration of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(59,1): error C3536: 'str': cannot be used before it is initialized
@@ -695,182 +433,21 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(908,26
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(916,1): message : could be 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(106,5): message : 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept': expects 4 arguments - 3 provided
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(106,5): message : while trying to match the argument list '(size_t *, wchar_t *, unsigned __int64)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(37,15): error C2661: 'MathClasses::Matrix3::Matrix3': no overloaded function takes 9 arguments
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(37,15): message : while trying to match the argument list '(float, float, float, float, float, float, float, float, float)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(62,15): error C2665: 'MathClasses::Matrix3::Matrix3': no overloaded function could convert all the argument types
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(113,5): message : could be 'MathClasses::Matrix3::Matrix3(MathClasses::Matrix3 &&)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(180,5): message : could be 'MathClasses::Matrix3::Matrix3(MathClasses::Matrix3 &&)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(62,15): message : 'MathClasses::Matrix3::Matrix3(MathClasses::Matrix3 &&)': cannot convert argument 1 from 'float [9]' to 'MathClasses::Matrix3 &&'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(62,16): message : Reason: cannot convert from 'float [9]' to 'MathClasses::Matrix3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(62,16): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(113,5): message : or       'MathClasses::Matrix3::Matrix3(const MathClasses::Matrix3 &)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(180,5): message : or       'MathClasses::Matrix3::Matrix3(const MathClasses::Matrix3 &)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(62,15): message : 'MathClasses::Matrix3::Matrix3(const MathClasses::Matrix3 &)': cannot convert argument 1 from 'float [9]' to 'const MathClasses::Matrix3 &'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(62,16): message : Reason: cannot convert from 'float [9]' to 'const MathClasses::Matrix3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(62,16): message : No constructor could take the source type, or constructor overload resolution was ambiguous
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(62,15): message : while trying to match the argument list '(float [9])'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(79,15): error C2661: 'MathClasses::Matrix3::Matrix3': no overloaded function takes 9 arguments
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(79,15): message : while trying to match the argument list '(float, float, float, float, float, float, float, float, float)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(83,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(83,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(83,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(84,12): error C2079: 'v3b' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(84,18): error C2679: binary '*': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(94,17): message : could be 'MathClasses::Vector3 MathClasses::Matrix3::operator *(MathClasses::Vector3) const'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(60,17): message : or       'MathClasses::Matrix3 MathClasses::Matrix3::operator *(MathClasses::Matrix3) const'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(84,18): message : while trying to match the argument list '(MathClasses::Matrix3, int)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(86,28): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(91,15): error C2661: 'MathClasses::Matrix3::Matrix3': no overloaded function takes 9 arguments
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(91,15): message : while trying to match the argument list '(int, int, int, int, int, int, int, int, int)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(92,15): error C2661: 'MathClasses::Matrix3::Matrix3': no overloaded function takes 9 arguments
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(92,15): message : while trying to match the argument list '(int, int, int, int, int, int, int, int, int)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(96,28): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(96,28): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(118,15): error C2661: 'MathClasses::Matrix3::Matrix3': no overloaded function takes 9 arguments
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(118,15): message : while trying to match the argument list '(int, int, int, int, int, int, int, int, int)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(124,28): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(124,28): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(134,15): error C2661: 'MathClasses::Matrix3::Matrix3': no overloaded function takes 9 arguments
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(134,15): message : while trying to match the argument list '(int, int, int, int, int, int, int, int, int)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(152,15): error C2661: 'MathClasses::Matrix3::Matrix3': no overloaded function takes 9 arguments
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(152,15): message : while trying to match the argument list '(int, int, int, int, int, int, int, int, int)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(168,15): error C2661: 'MathClasses::Matrix3::Matrix3': no overloaded function takes 9 arguments
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(168,15): message : while trying to match the argument list '(int, int, int, int, int, int, int, int, int)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(172,15): error C2440: 'type cast': cannot convert from 'MathClasses::Matrix3' to 'float *'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(172,15): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(185,21): error C2440: 'type cast': cannot convert from 'MathClasses::Matrix3' to 'float *'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3Tests.cpp(185,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
   Matrix3TransformTests.cpp
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(9,5): error C2011: 'MathClasses::Vector3': 'struct' type redefinition
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(22,21): error C2079: 'MathClasses::Matrix3::axis' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(79,17): error C2535: 'MathClasses::Matrix3 MathClasses::Matrix3::operator *(MathClasses::Matrix3) const': member function already defined or declared
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(60,17): message : see declaration of 'MathClasses::Matrix3::operator *'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,25): error C2079: 'row' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(73,1): error C2109: subscript requires array or pointer type
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(94,17): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(96,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(97,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(98,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(95,27): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(26,1): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): error C3536: 'str': cannot be used before it is initialized
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): error C2665: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2674,5): message : could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'wchar_t' to 'const _Elem *const '
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3224,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'wchar_t' to 'std::initializer_list<_Elem>'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-          and
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2620,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept': cannot convert argument 1 from 'wchar_t' to 'const _Alloc &'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Reason: cannot convert from 'wchar_t' to 'const _Alloc'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3031,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)': expects 4 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3024,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)': could not deduce template argument for '__formal'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2704,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2698,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2685,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)': expects 2 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : while trying to match the argument list '(wchar_t)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): error C2660: 'mbstowcs_s': function does not take 3 arguments
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(908,26): message : see declaration of 'mbstowcs_s'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(916,1): message : could be 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept': expects 4 arguments - 3 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : while trying to match the argument list '(size_t *, wchar_t *, unsigned __int64)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(48,18): error C2039: 'ToString': is not a member of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector4.h(5,12): message : see declaration of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(59,1): error C3536: 'str': cannot be used before it is initialized
@@ -1090,191 +667,22 @@ C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(19,30): error C2039: 'MakeTranslation': is not a member of 'MathClasses::Matrix3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(7,12): message : see declaration of 'MathClasses::Matrix3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(19,1): error C3861: 'MakeTranslation': identifier not found
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(22,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(22,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(31,30): error C2039: 'MakeTranslation': is not a member of 'MathClasses::Matrix3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(7,12): message : see declaration of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(31,53): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(31,1): error C3861: 'MakeTranslation': identifier not found
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(34,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(34,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(42,30): error C2039: 'MakeRotateX': is not a member of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(7,12): message : see declaration of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(42,1): error C3861: 'MakeRotateX': identifier not found
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(45,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(45,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(54,30): error C2039: 'MakeRotateY': is not a member of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(7,12): message : see declaration of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(54,1): error C3861: 'MakeRotateY': identifier not found
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(57,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(57,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(66,30): error C2039: 'MakeRotateZ': is not a member of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(7,12): message : see declaration of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(66,1): error C3861: 'MakeRotateZ': identifier not found
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(69,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(69,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(78,30): error C2039: 'MakeEuler': is not a member of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(7,12): message : see declaration of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(78,1): error C3861: 'MakeEuler': identifier not found
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(81,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(81,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(90,30): error C2039: 'MakeEuler': is not a member of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(7,12): message : see declaration of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(90,47): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(90,1): error C3861: 'MakeEuler': identifier not found
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(93,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(93,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(90,30): error C2660: 'MathClasses::Matrix3::MakeEuler': function does not take 1 arguments
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(172,24): message : see declaration of 'MathClasses::Matrix3::MakeEuler'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(90,30): message : while trying to match the argument list '(MathClasses::Vector3)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(103,30): error C2039: 'MakeScale': is not a member of 'MathClasses::Matrix3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(7,12): message : see declaration of 'MathClasses::Matrix3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(103,1): error C3861: 'MakeScale': identifier not found
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(106,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(106,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(113,30): error C2039: 'MakeScale': is not a member of 'MathClasses::Matrix3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(7,12): message : see declaration of 'MathClasses::Matrix3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(113,1): error C3861: 'MakeScale': identifier not found
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(116,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(116,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(123,30): error C2039: 'MakeScale': is not a member of 'MathClasses::Matrix3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(7,12): message : see declaration of 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(123,47): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(123,1): error C3861: 'MakeScale': identifier not found
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(126,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix3TransformTests.cpp(126,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
   Matrix4Tests.cpp
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(9,5): error C2011: 'MathClasses::Vector3': 'struct' type redefinition
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(22,21): error C2079: 'MathClasses::Matrix3::axis' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(79,17): error C2535: 'MathClasses::Matrix3 MathClasses::Matrix3::operator *(MathClasses::Matrix3) const': member function already defined or declared
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(60,17): message : see declaration of 'MathClasses::Matrix3::operator *'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,25): error C2079: 'row' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(73,1): error C2109: subscript requires array or pointer type
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(94,17): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(96,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(97,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(98,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(95,27): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(26,1): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): error C3536: 'str': cannot be used before it is initialized
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): error C2665: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2674,5): message : could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'wchar_t' to 'const _Elem *const '
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3224,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'wchar_t' to 'std::initializer_list<_Elem>'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-          and
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2620,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept': cannot convert argument 1 from 'wchar_t' to 'const _Alloc &'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Reason: cannot convert from 'wchar_t' to 'const _Alloc'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3031,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)': expects 4 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3024,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)': could not deduce template argument for '__formal'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2704,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2698,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2685,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)': expects 2 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : while trying to match the argument list '(wchar_t)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): error C2660: 'mbstowcs_s': function does not take 3 arguments
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(908,26): message : see declaration of 'mbstowcs_s'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(916,1): message : could be 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept': expects 4 arguments - 3 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : while trying to match the argument list '(size_t *, wchar_t *, unsigned __int64)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(48,18): error C2039: 'ToString': is not a member of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector4.h(5,12): message : see declaration of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(59,1): error C3536: 'str': cannot be used before it is initialized
@@ -1714,139 +1122,61 @@ C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(87,39): error C2039: 'm5': is not a member of 'MathClasses::Matrix4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(87,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(87,1): fatal  error C1003: error count exceeds 100; stopping compilation
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(87,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(87,21): message : while trying to match the argument list '(float)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(88,39): error C2039: 'm6': is not a member of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(88,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(88,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(88,21): message : while trying to match the argument list '(float)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(89,39): error C2039: 'm7': is not a member of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(89,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(89,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(89,21): message : while trying to match the argument list '(float)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(90,39): error C2039: 'm8': is not a member of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(90,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(90,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(90,21): message : while trying to match the argument list '(float)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(92,39): error C2039: 'm9': is not a member of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(92,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(92,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(92,21): message : while trying to match the argument list '(float)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(93,40): error C2039: 'm10': is not a member of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(93,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(93,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(93,21): message : while trying to match the argument list '(float)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(94,40): error C2039: 'm11': is not a member of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(94,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(94,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(94,21): message : while trying to match the argument list '(float)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(95,40): error C2039: 'm12': is not a member of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(95,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(95,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(95,21): message : while trying to match the argument list '(float)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(97,40): error C2039: 'm13': is not a member of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(97,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(97,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(97,21): message : while trying to match the argument list '(float)'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(98,40): error C2039: 'm14': is not a member of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4Tests.cpp(98,1): fatal  error C1003: error count exceeds 100; stopping compilation
   Matrix4TransformTests.cpp
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(9,5): error C2011: 'MathClasses::Vector3': 'struct' type redefinition
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(22,21): error C2079: 'MathClasses::Matrix3::axis' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(79,17): error C2535: 'MathClasses::Matrix3 MathClasses::Matrix3::operator *(MathClasses::Matrix3) const': member function already defined or declared
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(60,17): message : see declaration of 'MathClasses::Matrix3::operator *'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,25): error C2079: 'row' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(73,1): error C2109: subscript requires array or pointer type
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(94,17): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(96,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(97,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(98,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(95,27): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(26,1): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): error C3536: 'str': cannot be used before it is initialized
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): error C2665: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2674,5): message : could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'wchar_t' to 'const _Elem *const '
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3224,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'wchar_t' to 'std::initializer_list<_Elem>'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-          and
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2620,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept': cannot convert argument 1 from 'wchar_t' to 'const _Alloc &'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Reason: cannot convert from 'wchar_t' to 'const _Alloc'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3031,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)': expects 4 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3024,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)': could not deduce template argument for '__formal'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2704,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2698,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2685,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)': expects 2 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : while trying to match the argument list '(wchar_t)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): error C2660: 'mbstowcs_s': function does not take 3 arguments
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(908,26): message : see declaration of 'mbstowcs_s'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(916,1): message : could be 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept': expects 4 arguments - 3 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : while trying to match the argument list '(size_t *, wchar_t *, unsigned __int64)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(48,18): error C2039: 'ToString': is not a member of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector4.h(5,12): message : see declaration of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(59,1): error C3536: 'str': cannot be used before it is initialized
@@ -2070,8 +1400,6 @@ C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(22,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(30,30): error C2039: 'MakeTranslation': is not a member of 'MathClasses::Matrix4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(30,53): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(30,1): error C3861: 'MakeTranslation': identifier not found
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(33,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(33,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
@@ -2092,15 +1420,11 @@ C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(66,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(74,30): error C2039: 'MakeEuler': is not a member of 'MathClasses::Matrix4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(74,47): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(74,1): error C3861: 'MakeEuler': identifier not found
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(77,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(77,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(86,30): error C2039: 'MakeEuler': is not a member of 'MathClasses::Matrix4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(86,47): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(86,1): error C3861: 'MakeEuler': identifier not found
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(89,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(89,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
@@ -2111,143 +1435,10 @@ C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(101,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(110,30): error C2039: 'MakeScale': is not a member of 'MathClasses::Matrix4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix4.h(4,12): message : see declaration of 'MathClasses::Matrix4'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(110,47): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(110,1): error C3861: 'MakeScale': identifier not found
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(113,12): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Matrix4TransformTests.cpp(113,12): message : No constructor could take the source type, or constructor overload resolution was ambiguous
   Vector3Tests.cpp
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(9,5): error C2011: 'MathClasses::Vector3': 'struct' type redefinition
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(22,21): error C2079: 'MathClasses::Matrix3::axis' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(79,17): error C2535: 'MathClasses::Matrix3 MathClasses::Matrix3::operator *(MathClasses::Matrix3) const': member function already defined or declared
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(60,17): message : see declaration of 'MathClasses::Matrix3::operator *'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,25): error C2079: 'row' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(73,1): error C2109: subscript requires array or pointer type
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(94,17): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(96,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(97,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(98,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(95,27): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(26,1): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): error C3536: 'str': cannot be used before it is initialized
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): error C2665: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2674,5): message : could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'wchar_t' to 'const _Elem *const '
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3224,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'wchar_t' to 'std::initializer_list<_Elem>'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-          and
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2620,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept': cannot convert argument 1 from 'wchar_t' to 'const _Alloc &'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Reason: cannot convert from 'wchar_t' to 'const _Alloc'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3031,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)': expects 4 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3024,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)': could not deduce template argument for '__formal'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2704,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2698,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2685,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)': expects 2 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : while trying to match the argument list '(wchar_t)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): error C2660: 'mbstowcs_s': function does not take 3 arguments
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(908,26): message : see declaration of 'mbstowcs_s'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(916,1): message : could be 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept': expects 4 arguments - 3 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : while trying to match the argument list '(size_t *, wchar_t *, unsigned __int64)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(48,18): error C2039: 'ToString': is not a member of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector4.h(5,12): message : see declaration of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(59,1): error C3536: 'str': cannot be used before it is initialized
@@ -2464,277 +1655,8 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(908,26
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(916,1): message : could be 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(106,5): message : 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept': expects 4 arguments - 3 provided
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(106,5): message : while trying to match the argument list '(size_t *, wchar_t *, unsigned __int64)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(18,12): error C2079: 'vec' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(19,12): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(19,12): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(19,12): message : while trying to match the argument list '(float)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(20,12): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(20,12): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(20,12): message : while trying to match the argument list '(float)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(21,12): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(21,12): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(21,12): message : while trying to match the argument list '(float)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(26,12): error C2079: 'vec' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(26,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(26,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(27,12): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(27,12): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(27,12): message : while trying to match the argument list '(float)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(28,12): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(28,12): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(28,12): message : while trying to match the argument list '(float)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(29,12): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(29,12): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(29,12): message : while trying to match the argument list '(float)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(34,13): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(34,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(34,16): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(38,13): error C2079: 'v3b' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(38,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(38,16): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(45,21): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(45,24): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(45,24): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(46,37): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(46,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(46,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(46,21): message : while trying to match the argument list '()'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(48,21): error C2079: 'v3b' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(48,24): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(48,24): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(49,37): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(49,21): error C2661: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function takes 1 arguments
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(49,21): message : 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': expects 4 arguments - 1 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(49,21): message : while trying to match the argument list '()'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(54,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(54,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(54,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(56,28): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(58,12): error C2079: 'v3b' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(58,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(58,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(60,28): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(65,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(65,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(65,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(66,12): error C2079: 'v3b' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(66,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(66,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(72,12): error C2079: 'v3c' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(72,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(72,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(73,12): error C2079: 'v3d' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(73,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(73,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(81,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(81,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(81,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(82,12): error C2079: 'v3b' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(82,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(82,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(83,12): error C2079: 'v3c' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(85,28): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(90,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(90,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(90,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(91,12): error C2079: 'v3b' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(91,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(91,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(92,12): error C2079: 'v3c' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(94,28): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(99,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(99,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(99,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(100,12): error C2079: 'v3b' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(100,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(100,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(101,12): error C2079: 'v3c' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(103,28): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(108,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(108,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(108,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(109,12): error C2079: 'v3c' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(109,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(111,28): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(116,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(116,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(116,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(117,12): error C2079: 'v3c' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(117,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(119,28): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(134,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(134,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(134,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(135,12): error C2079: 'v3c' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(135,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(137,28): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(141,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(141,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(141,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(142,12): error C2079: 'v3b' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(142,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(142,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(149,12): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(149,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(149,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(150,12): error C2079: 'v3b' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(150,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(150,15): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(155,18): error C2079: 'v3a' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(155,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(155,21): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(157,1): error C2109: subscript requires array or pointer type
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(157,1): fatal  error C1003: error count exceeds 100; stopping compilation
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector3Tests.cpp(117,25): error C2677: binary '*': no global operator found which takes type 'MathClasses::Vector3' (or there is no acceptable conversion)
   Vector4Tests.cpp
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(9,5): error C2011: 'MathClasses::Vector3': 'struct' type redefinition
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(22,21): error C2079: 'MathClasses::Matrix3::axis' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(79,17): error C2535: 'MathClasses::Matrix3 MathClasses::Matrix3::operator *(MathClasses::Matrix3) const': member function already defined or declared
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(60,17): message : see declaration of 'MathClasses::Matrix3::operator *'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,25): error C2079: 'row' uses undefined struct 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(68,28): message : The initializer contains too many elements
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(73,1): error C2109: subscript requires array or pointer type
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(80,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(94,17): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(96,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(97,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(98,24): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(95,27): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'MathClasses::Matrix3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Matrix3.h(103,27): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(26,1): error C2027: use of undefined type 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector3.h(6,12): message : see declaration of 'MathClasses::Vector3'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): error C3536: 'str': cannot be used before it is initialized
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): error C2665: 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2674,5): message : could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'wchar_t' to 'const _Elem *const '
-          with
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3224,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'wchar_t' to 'std::initializer_list<_Elem>'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-          and
-          [
-              _Elem=wchar_t
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2620,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Alloc &) noexcept': cannot convert argument 1 from 'wchar_t' to 'const _Alloc &'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : Reason: cannot convert from 'wchar_t' to 'const _Alloc'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,37): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3031,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Ty &,const unsigned __int64,const unsigned __int64,const _Alloc &)': expects 4 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(3024,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,1): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _StringViewIsh &,const _Alloc &)': could not deduce template argument for '__formal'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2704,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2698,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const unsigned __int64,const _Elem,const _Alloc &)': expects 3 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2685,5): message : or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)'
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const ,const _Alloc &)': expects 2 arguments - 1 provided
-          with
-          [
-              _Elem=wchar_t,
-              _Alloc=std::allocator<wchar_t>
-          ]
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(37,20): message : while trying to match the argument list '(wchar_t)'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): error C2660: 'mbstowcs_s': function does not take 3 arguments
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(908,26): message : see declaration of 'mbstowcs_s'
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(916,1): message : could be 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : 'errno_t mbstowcs_s(size_t *,wchar_t (&)[_Size],const char *,size_t) noexcept': expects 4 arguments - 3 provided
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(40,5): message : while trying to match the argument list '(size_t *, wchar_t *, unsigned __int64)'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(48,18): error C2039: 'ToString': is not a member of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\MathHeaders\Vector4.h(5,12): message : see declaration of 'MathClasses::Vector4'
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\TestToString.h(59,1): error C3536: 'str': cannot be used before it is initialized
@@ -3106,5 +2028,19 @@ C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(171,26): error C2676: binary '[': 'const MathClasses::Vector4' does not define this operator or a conversion to a type acceptable to the predefined operator
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(172,26): error C2676: binary '[': 'const MathClasses::Vector4' does not define this operator or a conversion to a type acceptable to the predefined operator
 C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(176,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'MathClasses::Vector4'
-C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(176,1): fatal  error C1003: error count exceeds 100; stopping compilation
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(176,15): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(177,9): error C2676: binary '[': 'MathClasses::Vector4' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(178,26): error C2676: binary '[': 'MathClasses::Vector4' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(179,9): error C2676: binary '[': 'MathClasses::Vector4' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(180,26): error C2676: binary '[': 'MathClasses::Vector4' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(181,9): error C2676: binary '[': 'MathClasses::Vector4' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(182,26): error C2676: binary '[': 'MathClasses::Vector4' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(183,9): error C2676: binary '[': 'MathClasses::Vector4' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(184,26): error C2676: binary '[': 'MathClasses::Vector4' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(188,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'MathClasses::Vector4'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(188,15): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(190,15): error C2440: 'type cast': cannot convert from 'MathClasses::Vector4' to 'float *'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(190,15): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(196,21): error C2440: 'type cast': cannot convert from 'MathClasses::Vector4' to 'float *'
+C:\Users\s211426\Downloads\MathLibraryTests - STUDENT\MathLibraryTests - STUDENT\Vector4Tests.cpp(196,21): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
   Generating Code...

@@ -10,12 +10,13 @@ namespace MathClasses
     {
         float x, y, z;
 
-        Vector3() : x{ 0 }, y{ 0 }, z{ 0 } {
+        // Default constructor
+        Vector3() : x{ 0 }, y{ 0 }, z{ 0 } {}
 
-        }
+        Vector3(float x, float y, float z) : x{ x }, y{ y }, z{ z } {}
 
         union {
-            struct {float x, y, z;}; // 12-bytes
+            struct { float x, y, z; }; // 12-bytes
             float data[3]; // 12-bytes
         };
 
@@ -35,6 +36,7 @@ namespace MathClasses
         // cast to float array - const-qualified
         operator const float* () const { return data; }
 
+        // operator + (Vector, Vector)
         Vector3 operator +(const Vector3& rhs) const {
             Vector3 sum;
 
@@ -44,25 +46,77 @@ namespace MathClasses
             return sum;
         }
 
+        // operator - (Vector, Vector)
         Vector3 operator -(const Vector3& rhs) const {
-            Vector3 minus;
+            Vector3 sum;
 
-            minus.x = x - rhs.x;
-            minus.y = y - rhs.y;
-            minus.z = z - rhs.z;
-            return minus;
+            sum.x = x - rhs.x;
+            sum.y = y - rhs.y;
+            sum.z = z - rhs.z;
+            return sum;
         }
 
+        // operator * (Vector, float)
+        Vector3 operator *(float rhs) const {
+            Vector3 sum;
+
+            sum.x = x * rhs;
+            sum.y = y * rhs;
+            sum.z = z * rhs;
+            return sum;
+        }
+
+        // operator * (float, Vector)
         Vector3 operator *(const Vector3& rhs) const {
-            Vector3 multiply;
+            Vector3 sum;
 
-            multiply.x;
-            multiply.y;
-            multiply.z;
-            return multiply;
+            sum.x = x * rhs.x;
+            sum.y = y * rhs.y;
+            sum.z = z * rhs.z;
+            return sum;
         }
 
-        // TODO: Multiply, Divide, Other
+        // operator / (Vector, float)
+        Vector3 operator /(float rhs) const {
+            Vector3 sum;
+
+            sum.x = x / rhs;
+            sum.y = y / rhs;
+            sum.z = z / rhs;
+            return sum;
+        }
+
+        // +=
+        Vector3 operator +=(const Vector3& rhs) {
+            x += rhs.x;
+            y += rhs.y;
+            z += rhs.z;
+            return *this;
+        }
+
+        // -=)
+        Vector3 operator -=(const Vector3& rhs) {
+            x -= rhs.x;
+            y -= rhs.y;
+            z -= rhs.z;
+            return *this;
+        }
+
+        // *=
+        Vector3 operator *=(float rhs) {
+            x *= rhs;
+            y *= rhs;
+            z *= rhs;
+            return *this;
+        }
+
+        // /=
+        Vector3 operator /=(float rhs) {
+            x /= rhs;
+            y /= rhs;
+            z /= rhs;
+            return *this;
+        }
 
         bool operator == (const Vector3& rhs) const
         {
@@ -142,5 +196,5 @@ namespace MathClasses
             // return the angle between them
             return acosf(d);
         }
-	};
+    };
 }

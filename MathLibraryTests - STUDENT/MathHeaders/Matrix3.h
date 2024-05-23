@@ -8,7 +8,8 @@ namespace MathClasses
     {
         union {
             // as individual floats
-            struct {
+            struct
+            {
                 float m1, m2, m3, m4, m5, m6, m7, m8, m9;
             };
 
@@ -18,17 +19,29 @@ namespace MathClasses
             // as a 2-D array
             float mm[3][3];
 
-            // as Vector3s
+            // as Vector3's
             Vector3 axis[3];
         };
 
-        // Default constructor - zero initializes all values
+        // Default Constructor - zero initializes all values
         Matrix3() {
             m1 = m2 = m3 = m4 = m5 = m6 = m7 = m8 = m9 = 0.0f;
         }
 
-        static Matrix3 MakeIdentity()
-        {
+        // Constructor using const m1 - m9
+        Matrix3(const float m1, const float m2, const float m3, const float m4, const float m5, const float m6, const float m7, const float m8, const float m9) {
+            this->m1 = m1;
+            this->m2 = m2;
+            this->m3 = m3;
+            this->m4 = m4;
+            this->m5 = m5;
+            this->m6 = m6;
+            this->m7 = m7;
+            this->m8 = m8;
+            this->m9 = m9;
+        }
+
+        static Matrix3 MakeIdentity() {
             Matrix3 identity;
             identity.m1 = 1;
             identity.m2 = 0;
@@ -55,11 +68,19 @@ namespace MathClasses
             return v[dim];
         }
 
-        // TODO:  implement both iterations of the operator, for use on mutable and const-qualified matrices.
+        //
+        // Maths Operators
 
+        // operator +=
+        // operator -=
+        // operator *=
+        // operator /=
+        // operator ==(Matrix, Matrix)
+        // operator !=(Matrix, Matrix)
+
+        // Matrix Multiplication
         Matrix3 operator *(Matrix3 rhs) const {
-            // TODO
-
+            // stores the return value
             Matrix3 result;
 
             // iterate through first matrix
@@ -69,27 +90,16 @@ namespace MathClasses
 
                 // iterate through columns in the second matrix
                 for (size_t j = 0; j < 3; ++j) {
-                    // current column from the second matrix
-                    rhs.axis[j];
+                    // dot each row with each column and assign to result matrix
+                    // result is calculated row-by-row
+                    result.mm[j][i] = row.Dot(rhs.axis[j]);
                 }
             }
             return result;
         }
 
-        Matrix3 operator *(Matrix3 rhs) const {
-            return Matrix3(
-                m1 * rhs.m1 + m4 * rhs.m2 + m7 * rhs.m3,
-                m2 * rhs.m1 + m5 * rhs.m2 + m8 * rhs.m3,
-                m3 * rhs.m1 + m6 * rhs.m2 + m9 * rhs.m3,
-
-                m1 * rhs.m4 + m4 * rhs.m5 + m7 * rhs.m6,
-                m2 * rhs.m4 + m5 * rhs.m5 + m8 * rhs.m6,
-                m3 * rhs.m4 + m6 * rhs.m5 + m9 * rhs.m6,
-
-                m1 * rhs.m7 + m4 * rhs.m8 + m7 * rhs.m9,
-                m2 * rhs.m7 + m5 * rhs.m8 + m8 * rhs.m9,
-                m3 * rhs.m7 + m6 * rhs.m8 + m9 * rhs.m9);
-        }
+        //
+        // Matrix Multiplication against a Vector
 
         Vector3 operator *(Vector3 rhs) const {
             return Vector3(
@@ -99,49 +109,71 @@ namespace MathClasses
             );
         }
 
+        Matrix3& operator *=(Matrix3 rhs) {
+            // TODO
+        }
+
+        bool operator == (const Matrix3& rhs) const {
+            // TODO - remember about floating point imprecision
+        }
+
+        bool operator !=(const Matrix3& rhs) const {
+            // TODO - remember about floating point imprecision
+        }
+
+        //
+        // Matrix Transposition
         Matrix3 Transposed() const {
             return Matrix3(m1, m4, m7, m2, m5, m8, m3, m6, m9);
         }
 
+        //
+        // ToString
+
         std::string ToString() const {
             std::string str = std::to_string(v[0]);
             for (size_t i = 1; i < 9; ++i) {
-                str += "," + std::to_string(v[i]);
+                str += ", " + std::to_string(v[i]);
             }
             return str;
         }
 
         //
-        // MATRIX TRANSFORMATIONS
+        // Matrix Transformations
         //
 
+        // Rotate X-axis
         static Matrix3 MakeRotateX(float a) {
-            return Matrix3(1, 0, 0,
-                0, cosf(a), -sinf(a),
-                0, sinf(a), cosf(a));
+            return Matrix3(1, 0, 0, 0, cosf(a), -sinf(a), 0, sinf(a), cosf(a));
         }
 
+        // Rotate Y-axis
         static Matrix3 MakeRotateY(float a) {
-            return Matrix3(cosf(a), 0, -sinf(a),
-                0, 1, 0,
-                sinf(a), 0, cosf(a));
+            return Matrix3(cosf(a), 0, -sinf(a), 0, 1, 0, sinf(a), 0, cosf(a));
         }
 
+        // Rotate Z-axis
         static Matrix3 MakeRotateZ(float a) {
-            return Matrix3(cosf(a), sinf(a), 0,
-                -sinf(a), cosf(a), 0,
-                0, 0, 1);
+            return Matrix3(cosf(a), sinf(a), 0, -sinf(a), cosf(a), 0, 0, 0, 1);
         }
 
-        Matrix3 modelMatrix = Matrix3::MakeIdentity();
-        
-        // rotate this by 3 units on the x-axis
-        modelMatrix *= Matrix3::MakeRoateX(3.0f);
+        //
+        //Rotate an existing Matrix
+
+        static Matrix3 MakeRotatedIdentity(float angle) {
+            Matrix3 modelMatrix = Matrix3::MakeIdentity();
+            modelMatrix *= Matrix3::MakeRotateX(angle);
+            return modelMatrix;
+        }
+
+        //
+        // Euler Angle Rotations
 
         static Matrix3 MakeEuler(float pitch, float yaw, float roll) {
             Matrix3 x = MakeRotateX(pitch);
             Matrix3 y = MakeRotateY(yaw);
             Matrix3 z = MakeRotateZ(roll);
+
             // combine rotations in a specific order
             return (z * y * x);
         }
@@ -153,32 +185,29 @@ namespace MathClasses
         }
 
         static Matrix3 MakeScale(Vector3 scale) {
-            // just reuses the above function
+            // reuses the function above
             return MakeScale(scale.x, scale.y, scale.z);
+
+            Matrix3 modelMatrix = Matrix3::MakeIdentity();
+            //scale this model on all axes
+            modelMatrix *= Matrix3::MakeScale(3, 3, 3);
         }
 
-        Matrix3 modelMatrix = Matrix3::MakeIdentity();
 
-        // scale this model by 3 on all axes
-        modelMatrix *= Matrix3::MakeScale(3, 3, 3);
+        static Matrix3 MakeTranslation(float x, float y, float z) {
+            // TODO
+        }
 
-        //
-        // Homogenous Transforms
-        //
+        static Matrix3 MakeTranslation(Vector3 vec) {
+            // TODO
+        }
 
-        class Vector3 {
-        public:
-            union {
-                struct {
-                    float x, y;
-                    union {
-                        float z, w;
-                    };
-                };
-                float data[3];
-            };
-        };
+        static Matrix3 MakeEuler(Vector3 rot) {
+            // TODO
+        }
 
-        
+        static Matrix3 MakeScale(float xScale, float yScale) {
+            // TODO
+        }
     };
-} 
+}
