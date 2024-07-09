@@ -54,9 +54,13 @@ namespace MathClasses
 
         Colour() {
             // initialize all colour components to 0 except Alpha which is 255
+            SetRed(0);
+            SetBlue(0);
+            SetGreen(0);
+            SetAlpha(255);
         }
 
-        Colour(unsigned char red, unsigned char green, unsigned char blue, unsigned char alpha) {
+		Colour(unsigned char red, unsigned char green, unsigned char blue, unsigned char alpha) : colour((static_cast<unsigned int>(red) << 24) | (static_cast<unsigned int>(green) << 16) | (static_cast<unsigned int>(blue) << 8) |static_cast<unsigned int>(alpha)) {
             // initialize all colour components as per the parameters
         }
     };
